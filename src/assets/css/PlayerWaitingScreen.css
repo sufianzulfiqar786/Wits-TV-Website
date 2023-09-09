@@ -1,0 +1,362 @@
+.player-waiting-main{
+    background: radial-gradient(88.22% 88.22% at 50% 0%, rgba(11, 90, 98, 0.8) 0%, rgba(7, 67, 75, 0) 100%), #000B0C;;
+    border-radius: 12px;
+}
+
+.player-waiting{
+    z-index: -10;
+    background-color: black;
+    /* height: 100vh; */
+}
+
+.player-waiting-left-img{
+    width: 22.4vw;
+    height: 35vw;
+}
+
+.player-waiting-right-img1{
+    width: 22vw;
+    height: 13.5vw;
+}
+
+.player-waiting-right-img2{
+    width: 22vw;
+    height: 9.5vw;
+}
+
+.player-waiting-right-img3{
+    width: 22vw;
+    height: 10.6vw;
+}
+
+.player-waiting-header{
+    /* height: 10vh; */
+}
+
+.player-waiting-body{
+    height: 70vh;
+}
+
+.player-waiting-main-Earth{
+    width: 7vw;
+}
+
+.player-waiting-main-text{
+    color: #30AEBA;
+    font-size: 1.6vw;
+}
+
+.player-waiting-card-crown {
+    right: 13%;
+    bottom: 10%;
+}
+
+.player-waiting-card-crown img {
+    width: 1vw;
+}
+
+.player-waiting-card-div1 {
+    margin-left: -5%;
+    margin-top: 4%;
+}
+
+.player-waiting-card-div2 {
+    margin-left: -4%;
+    margin-top: -5%;
+}
+
+.player-waiting-card-div1 img {
+    width: 15px;
+    height: 15px;
+}
+
+.player-waiting-card-div2 img {
+    width: 10px;
+    height: 10px;
+}
+
+.player-waiting-card-text1 {
+    font-size: 10px;
+}
+
+.player-waiting-card-text2 {
+    font-size: 10px;
+    margin-left: 1.5%;
+}
+
+.player-waiting-question-mark{
+    font-size: 20px;
+    color: #D6A15E;
+}
+
+.player-screen-card-profile-question-mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+@media (min-width:470px) and (max-width:1024px){
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 42vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 17.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 10.5vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 12.6vw;
+    }
+
+    
+
+}
+
+@media (min-width:1224px) and (max-width:1280px){
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 44vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 18.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 11vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 13.45vw;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1380px){
+    .player-waiting-card-crown {
+        right: 20%;
+        bottom: 10%;
+    }
+    
+    .player-waiting-card-crown img {
+        width: 1vw;
+    }
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 34vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 13.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 9vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 10.45vw;
+    }
+}
+
+@media (min-width:1380px) and (max-width:1480px){
+    .player-waiting-card-crown {
+        right: 25%;
+        bottom: 10%;
+    }
+    
+    .player-waiting-card-crown img {
+        width: 1vw;
+    }
+
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 31vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 11.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 9vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 9.45vw;
+    }
+}
+
+@media (min-width:1480px) and (max-width:1580px){
+    .player-waiting-card-crown {
+        right: 30%;
+        bottom: 10%;
+    }
+    
+    .player-waiting-card-crown img {
+        width: 1vw;
+    }
+
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 29vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 10.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 8vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 9.45vw;
+    }
+
+}
+
+@media (min-width:1580px) and (max-width:1680px){
+    .player-waiting-card-crown {
+        right: 35%;
+        bottom: 10%;
+    }
+    
+    .player-waiting-card-crown img {
+        width: 1vw;
+    }
+
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 27vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 9.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 7.5vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 9.1vw;
+    }
+
+    .player-waiting-card-div1{
+        /* margin-left: 0%; */
+        margin-top: 2%;
+    }
+
+    .player-waiting-card-div2{
+        /* margin-left: 0%; */
+        margin-top: -3%;
+    }
+
+}
+
+@media (min-width:1680px) and (max-width:1880px){
+    .player-waiting-card-crown {
+        right: 40%;
+        bottom: 10%;
+    }
+    
+    .player-waiting-card-crown img {
+        width: 1vw;
+    }
+
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 27vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 9.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 7.5vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 9.1vw;
+    }
+
+    .player-waiting-card-div1{
+        /* margin-left: 0%; */
+        margin-top: 2%;
+    }
+
+    .player-waiting-card-div2{
+        /* margin-left: 0%; */
+        margin-top: -3%;
+    }
+
+}
+
+@media (min-width:1880px) and (max-width:2080px){
+    .player-waiting-card-crown {
+        right: 43%;
+        bottom: 10%;
+    }
+    
+    .player-waiting-card-crown img {
+        width: 1vw;
+    }
+
+    .player-waiting-left-img{
+        width: 22.4vw;
+        height: 24.9vw;
+    }
+    
+    .player-waiting-right-img1{
+        width: 22vw;
+        height: 9.5vw;
+    }
+    
+    .player-waiting-right-img2{
+        width: 22vw;
+        height: 6.5vw;
+    }
+    
+    .player-waiting-right-img3{
+        width: 22vw;
+        height: 8.1vw;
+    }
+
+    .player-waiting-card-div1{
+        /* margin-left: 0%; */
+        margin-top: 2%;
+    }
+
+    .player-waiting-card-div2{
+        /* margin-left: 0%; */
+        margin-top: -3%;
+    }
+
+}

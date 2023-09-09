@@ -1,0 +1,13 @@
+.country-name{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 28.4596px;
+    color: white;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+justify-content: space-between;
+}
+.video_width{
+    height: 175px !important;
+    width: 160px !important;
+}

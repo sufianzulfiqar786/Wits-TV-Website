@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+$Roboto-Medium: "Roboto Medium";
+
+.challange {
+  background-color: black;
+  height: 100vh;
+  &-center {
+    height: 70vh;
+    background: radial-gradient(
+        88.22% 88.22% at 50% 0%,
+        rgba(11, 90, 98, 0.8) 0%,
+        rgba(7, 67, 75, 0) 100%
+      ),
+      #000b0c;
+    &-head {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 49px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #d6a15e;
+    }
+  }
+}
+.profile {
+  width: 160px;
+  height: 160px;
+  border: 2px solid #30aeba;
+  border-radius: 5597.27px;
+  img {
+  }
+}
+.option{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 40px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.375) 100%);
+border: 1px solid rgba(255, 255, 255, 0.5);
+filter: drop-shadow(0px 12px 40px rgba(0, 0, 0, 0.75));
+border-radius: 12px;
+}
+.selected{
+  background: rgba(242, 67, 130, 0.6);
+}
+.correct{
+  background: rgba(117, 209, 73, 0.6);
+  border: 2.00001px solid #81DCF9;
+  box-shadow: 0px 0px 20.0001px #30AEBA, 0px 12px 40.0001px rgba(0, 0, 0, 0.75);
+}
+.option-right{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 40px;
+background: rgba(117, 209, 73, 0.6);
+border: 2.00001px solid #81DCF9;
+box-shadow: 0px 0px 20.0001px #30AEBA, 0px 12px 40.0001px rgba(0, 0, 0, 0.75);
+border-radius: 12px;
+
+}
+.option-wrong{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 24px 40px;
+
+align-items: center;
+  background: rgba(242, 67, 130, 0.6);
+border: 2.00001px solid #F24382;
+box-shadow: 0px 12px 40.0001px rgba(0, 0, 0, 0.75);
+border-radius: 12px;
+}
+.option-select{
+  font-family: $Roboto-Medium;
+font-style: normal;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+}
+@media (max-height: 1055px) {
+  .leader-video-call {
+    display: none;
+  }
+}

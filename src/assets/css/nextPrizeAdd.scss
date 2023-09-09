@@ -1,0 +1,92 @@
+$lightgrey-color: #e0e0e0;
+$grey-color: #a6a6a6;
+$darkergrey-color: #4b4b4b;
+$darkgrey2-color: #828282;
+.lobby-contests {
+    overflow-x: scroll;
+    display: flex;
+    // margin-top: -3.5%;
+    // margin-left: -4%;
+    .contest-ad {
+      width: 158px;
+      height: 200px;
+      border: 1px solid $lightgrey-color;
+      border-radius: 12px;
+      margin: 14px 0px 18px 10px;
+      display: inline-block;
+      white-space: nowrap;
+      box-shadow: 0px 7px 13px -12px rgba(20, 15, 15, 0.5);
+      flex: 0 0 auto;
+      &-top {
+        &-image {
+          cursor: pointer;
+  
+          &-icon {
+            width: 60%;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+          }
+        }
+      }
+      &-bottom {
+        text-align: center;
+        margin-top: 0px;
+        &-chance {
+          color: $grey-color;
+          font-size: 10px;
+          line-height: 10px;
+          font-family: 'Roboto';
+        }
+        &-title {
+          font-size: 10px;
+          color: $darkergrey-color;
+          font-family: "OpenSans-Bold";
+        }
+        &-numbers {
+          font-family: 'Roboto';
+          font-size: 10px;
+          color: $darkgrey2-color;
+          padding-top: 10px;
+        }
+
+
+        &-chance span {
+          color: $grey-color;
+          font-size: 14px;
+          line-height: 10px;
+          // font-family: 'Roboto';
+        }
+        &-title span {
+          font-size: 12px;
+          color: $darkergrey-color;
+          // font-family: "OpenSans-Bold";
+        }
+        &-numbers span {
+          // font-family: 'Roboto';
+          font-size: 12px;
+          color: $darkgrey2-color;
+          padding-top: 10px;
+        }
+
+        &-progress {
+          padding: 0 6px;
+          display: flex;
+          &-left {
+            width: 60%;
+            margin-right: 10px;
+          }
+          &-right {
+            .auth-golden-button {
+              font-size: 8px;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }

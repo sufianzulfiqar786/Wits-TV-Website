@@ -1,0 +1,10 @@
+export const USER_LOGIN = "/television_sign_in";
+export const TV_CONTEST="/tv_contest"
+export const GET_CONTESTANTS="/get_contestants"
+export const GET_RANDOM_USER="/select_contestant"
+export const GET_CONTEST_PLAYERS="/start_contest"
+export const GET_LANGUAGE="/get_app_setting"
+export const START_CONTEST="/start_game"
+export const START_ROOM="/generate/rooms"
+export const   DELETE_USER="/delete_users"
+export const   GAME_WIN_DETAIL="/game_winning_detail"
